@@ -99,7 +99,7 @@ int main() {
 
         // Write to stdio whatever came in on the MISO line.
         printf("SPI master recibe:\n", i);
-        printbuf(out_buf, BUF_LEN);
+        printbuf(in_buf, BUF_LEN);
 
         // Sleep for ten seconds so you get a chance to read the output.
         sleep_ms(10 * 1000);
